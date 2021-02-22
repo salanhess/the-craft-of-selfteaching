@@ -1,0 +1,9 @@
+运行方式：
+0. Anaconda Navigator打开 JupterLab
+1.cd /Users/baihao/anaconda3/bin
+2.执行 ./jupyter notebook list =>确认已经运行
+3.浏览器打开 http://localhost:8888/lab?
+
+相关问题
+1.Bad config encountered during initialization: 没有找到路径: ''/Users/baihao/anaconda3/bin/~'‘
+./jupyter lab --generate-config 配置lab的路径 
